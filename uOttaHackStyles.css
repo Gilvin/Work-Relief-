@@ -27,6 +27,9 @@ body{
 
     
 }
+
+
+
 .lady{
     min-height: 100vh;
     position: relative;
@@ -235,13 +238,14 @@ h1,h2 {
     top: 55%;
     left: 26%;
     transform:translate(-50%,-50%);
-    z-index: 39;
+    z-index: 99;
     padding-top: 50px;
 }
 
+
 /*Content About Page*/
 .about-section{
-    background: url(..//uOttawaHack/images/photo-1512438248247-f0f2a5a8b7f0.jpg) no-repeat left;
+    background: url(..//uOttawaHack/images/photo-1533162507191-d90c625b2640.jpg) no-repeat left;
     background-size: 50%;
     background-color: #333333;
     overflow: hidden;
@@ -281,3 +285,166 @@ h1,h2 {
     font-weight: 700;
     font-size: 13px;
 }
+
+/*Game Tab*/
+
+
+
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+    padding: 0 2rem 2rem;
+    padding-bottom: 50px;
+}
+
+.heading {
+	
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+    flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-image:hover {
+	transform: scale(1.05);
+}
+
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 7rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+
+  /* footer */
+  .footer {
+    background:#ffff;
+    
+    text-align: center;
+    padding: 2.5em 0;
+    
+
+}
+
+.footer a { 
+    color: inherit;
+    text-decoration: none;
+    color:black;
+    
+}
+
+
+
+.footer__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0 .5em;
+}
+
+.social-list__link {
+    padding: .5em;
+}
+.footer h2{
+    color:black;
+    padding: .5em;
+}
+
+/*Meditate*/
+
+.meditate-section{
+    background: url(..//uOttawaHack/images/photo-1512438248247-f0f2a5a8b7f0.jpg) no-repeat right;
+    background-size: 50%;
+    background-color: #333333;
+    overflow: hidden;
+    padding: 100px 0;
+    
+}
+
+.inner-meditate-container{
+    width: 55%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-meditate-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.inner-meditate-container h3{
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.meditate_button{
+    position: relative;;
+    right: 500px;
+    top: -250px;
+    z-index: 99;
+    overflow: hidden;
+}
+
+
+ 
+
+
